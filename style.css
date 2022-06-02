@@ -1,0 +1,287 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background-color: rgb(10, 10, 29);
+    color: white;
+}
+
+a {
+    color: white;
+
+    text-decoration: none;
+
+    transition: all 0.2s ease;
+}
+
+nav a:hover {
+    color: darkgray;
+}
+
+footer .a:hover {
+    color: gray;
+}
+
+.a1:hover {
+    color: white;
+}
+nav {
+    padding: 0.5rem 0;
+}
+
+nav .first {
+    width: 60%;
+
+    justify-content: space-between;
+
+    font-weight: 600;
+
+    text-transform: capitalize;
+}
+
+nav .third {
+    width: 28%;
+}
+
+nav .second {
+    width: 12%;
+
+    justify-content: space-between;
+}
+
+nav .second .two {
+    width: 2px;
+    height: 22px;
+
+    background-color: white;
+}
+
+.logo {
+    font-size: 1.6rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+
+    padding: 1rem 0;
+    padding-bottom: 1.5rem;
+}
+
+.select .first {
+    transform: translateY(5%);
+}
+
+.section .second .one span img {
+    width: 50px;
+
+    border-radius: 50%;
+}
+
+.second .by {
+    padding: 2.5rem 2rem;
+
+    border-radius: 25px;
+
+    background-color: rgb(41, 42, 66);
+
+    transform: translateY(-50%);
+}
+
+.span {
+    margin-left: 2rem;
+}
+
+.by .one {
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.by .two {
+    padding: 1.5rem 0;
+
+    font-size: 2.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+
+    text-transform: capitalize;
+}
+
+.by .three {
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+
+section .third {
+    justify-content: space-between;
+}
+
+.third .one {
+    width: 32%;
+}
+
+.bir .img {
+    transition: all 0.3s ease;
+
+    background-image: url(./img/three.jpg);
+    background-size: 100%;
+
+    border-radius: 25px;
+
+    height: 330px;
+
+    padding: 4.8rem 1.8rem;
+}
+
+.bir .img1 {
+    background-image: url(./img/five.jpg);
+    background-size: 100%;
+
+    margin-top: 6.5%;
+}
+
+.bir .img2 {
+    background-image: url(./img/four.jpg);
+    background-size: 100%;
+
+    margin-top: 6.5%;
+}
+
+.bir .img3 {
+    background-image: url(./img/six.jpg);
+    background-size: 100%;
+}
+
+.bir .img4 {
+    background-image: url(./img/seven.jpg);
+    background-size: 100%;
+}
+
+.bir .img5 {
+    background-image: url(./img/eight.jpg);
+    background-size: 100%;
+}
+.bir .img6 {
+    background-image: url(./img/nine.jpg);
+    background-size: 100%;
+}
+
+.bir .img7 {
+    background-image: url(./img/eleven.jpg);
+    background-size: 100%;
+}
+
+.bir .img8 {
+    background-image: url(./img/ten.jpg);
+    background-size: 100%;
+}
+
+.bir .img:hover {
+    transform: translateY(-8px);
+
+    box-shadow: 0px 4px 8px rgb(255, 0, 255);
+}
+
+.bir .img div {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.1rem;
+    
+    filter: brightness(1);
+}
+
+.bir .img .two {
+    font-size: 2rem;
+
+    padding: 1rem 0;
+}
+
+.bir .img .three {
+    justify-content: space-between;
+}
+
+.load {
+    padding: 3rem;
+
+    font-size: 1.4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+
+    text-transform: capitalize;
+}
+
+.load div {
+    padding: 1.2rem 2.5rem;
+
+    display: inline-block;
+
+    border-radius: 45px;
+
+    background-color: rgb(41, 42, 66);
+}
+
+footer {
+    background-color: rgb(41, 42, 66);
+
+    padding: 3rem 0;
+    padding-bottom: 1rem;
+}
+
+footer .footer {
+    justify-content: space-between;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.footer .first .one {
+    font-size: 1.6rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+
+    padding: 1rem 0;
+}
+
+.first .two1 {
+    color: rgb(125, 125, 125);
+
+    font-size: 1rem;
+}
+
+.first .two2 div {
+    margin-bottom: 0.5rem;
+}
+
+.first .two3 div .one11 {
+    padding: 0.3rem 1.2rem;
+
+    border: 1px solid rgb(125, 125, 125);
+
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+
+    transition: all 0.3s ease;
+}
+
+.first .two3 div .one11:hover {
+    background-color: rgb(125, 125, 125);
+
+    border: 1px solid rgb(125, 125, 125);
+}
+
+.first .two .bir {
+    background-color: rgb(10, 10, 29);
+
+    padding: 1rem;
+
+    border-radius: 50%;
+    border-top-left-radius: 0%;
+
+    margin-right: 0.5rem;
+}
+
+.first .two .bir1 {
+    padding: 1rem 1.5rem;
+}
+
+.first .two .bir11 {
+    padding: 1rem 1.3rem;
+}
